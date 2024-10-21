@@ -1,0 +1,201 @@
+body{
+    background: linear-gradient(rgb(235, 224, 235), rgb(169, 169, 233));
+    color: navy;
+}
+
+.header{
+   
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.title{
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigator{
+
+    display: flex;
+    justify-content: start;
+    
+    
+}
+
+.navigator-link{
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.mainpage{
+
+    height: 550px;
+    width:100%;
+}
+
+
+
+.container-search{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+
+}
+
+input{
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 0px;
+
+}
+
+.container-input{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.button-search{
+    background-color: rgb(203, 168, 236);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container{
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.cards{
+    border: 2px solid blueviolet;
+    background: linear-gradient(rgb(236, 175, 236), rgb(111, 83, 238));
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 14px;
+    border-radius: 10px;
+   
+}
+
+.cards:hover{
+    filter: opacity(90%);
+    background: linear-gradient(rgb(110, 110, 173), rgb(184, 141, 224)); 
+}
+
+.img1{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/products/Smartwatches/img-smartwatches/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img2{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/products/Smartwatches/img-smartwatches/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img3{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/products/Smartwatches/img-smartwatches/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img4{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/products/Smartwatches/img-smartwatches/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.text-subtitle{
+    color: navy;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    margin: 0px;
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.container-button{
+
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background: linear-gradient(navy, blue);
+    color: azure;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.final{
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+.end-title{
+    margin: 2px;
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+}

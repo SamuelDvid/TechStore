@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(rgb(235, 224, 235), rgb(169, 169, 233));
+    color: navy;
+}
+.header{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navigator{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+.navigator-link{
+    color: navy;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    border: 2px solid blueviolet;
+    background: linear-gradient(rgb(236, 175, 236), rgb(111, 83, 238));
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 10px;
+   
+}
+
+
+
+.img1{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/images/img1.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img2{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/images/img2.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img3{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/images/img3.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img4{
+    border: 1px solid rgb(243, 236, 195);
+    width: 300px;
+    height: 300px;
+    background-image: url(/techstore/images/img4.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.final{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.end-title{
+    color: navy;
+    font-family: "Pacifico", cursive;
+    margin: 2px;
+}
+
